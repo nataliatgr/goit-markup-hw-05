@@ -536,7 +536,8 @@ h3{
 }
 
 .subscribe-form {
-    display: flex;    
+    display: flex; 
+    gap: 24px;   
 }
 
 .subscribe-label {
