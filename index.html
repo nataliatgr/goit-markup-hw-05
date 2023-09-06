@@ -313,9 +313,8 @@
       </button>
     </form>
   </div>
-
     </div>
-</div>
+</footer>
 
 <!--order form-->
 <div class="backdrop" data-modal>
@@ -368,29 +367,29 @@
     </div>
     
     
-    <div class="checkbox-container"> 
-            <input
-    type="checkbox"
-    class="checkbox visually-hidden"
-    id="user-privacy"
-    value="true"
-    name="user-privacy"
-    required
-    />
-                <label for="user-privacy" class="policy">
-                    <span class="label-span">
-    <svg class="span-svg" width="10" height="8">
-    <use href="./images/icons.svg#icon-checkbox"></use>
-    </svg>
-    </span>
-              I accept the terms and conditions of the 
-    <a href="" class="checkbox-link">Privacy Policy</a>
-    </label>
-            </div>
-    </form>
-    </div>
-    </div>
-
-    </footer>  
+    <div class="callback-checkbox">
+        <input
+          id="user-privacy"
+          type="checkbox"
+          value="true"
+          name="user-privacy"
+          class="checkbox-input visually-hidden"
+        />
+    <label for="user-privacy" class="checkbox-policy"
+    ><span class="checkbox-icon"
+      ><svg class="checkbox-svg" width="10" height="8">
+        <use
+          href="./images/icons.svg#icon-checkbox"
+        ></use></svg></span
+    >I accept the terms and conditions of the<a class="policy-link"
+      >Privacy Policy</a
+    ></label
+  >
+</div>
+<button type="submit" class="form-button">Send</button>
+</form>
+</div>
+</div>
+      
 </body>
 </html>
