@@ -749,7 +749,7 @@ input:checked + label > span {
 
 .sub-svg-icon {
     margin-left: 16px;
-    color: #ffffff;    
+    fill: #ffffff;    
 }
     .checkbox-icon {
         left: 24px;
