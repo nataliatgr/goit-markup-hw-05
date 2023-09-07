@@ -586,11 +586,11 @@ placeholder {
      }
 
 .order-button-footer:hover {
-        background-color: #404bbf;
+        background-color: #ffffff;
         border: none;
     }
 .order-button-footer:focus {
-    background-color: #404bbf;
+    background-color: #ffffff;
     border: none;
 }
 
@@ -754,6 +754,7 @@ placeholder {
         justify-content: center;
         fill: transparent;
         cursor: pointer;
+        display: inline-flex;
         }
 
 .footer-text {
