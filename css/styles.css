@@ -587,11 +587,11 @@ placeholder {
      }
 
 .order-button-footer:hover {
-        background-color: #ffffff;
+        background-color: #404bbf;
         border: none;
     }
 .order-button-footer:focus {
-    background-color: #ffffff;
+    background-color: #404bbf;
     border: none;
 }
 
