@@ -646,6 +646,10 @@ button:hover, button:focus  {
     border: 1px solid rgba(46, 47, 66, 0.4);
 }
 
+.input-area:focus + .svg-form { 
+    fill: #4D5AE5; 
+}
+
 .svg-form {
     position: absolute;
     left: 16px;
