@@ -629,7 +629,8 @@ button:hover, button:focus  {
 }
 
 .input-name {
-    position: relative;    
+    position: relative;  
+    margin-bottom: 16px;  
 }
 
 .input-area {
