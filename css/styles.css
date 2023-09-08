@@ -646,6 +646,10 @@ button:hover, button:focus  {
 .textarea-box {
     margin-bottom: 16px;
 }
+
+textarea {
+    display: block;
+}
 .svg-form:focus {
     fill: #4D5AE5;
 }
