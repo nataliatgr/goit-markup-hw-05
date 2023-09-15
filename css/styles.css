@@ -443,7 +443,8 @@ h3{
 }
 .link-logotype {
     display: inline-block;
-    margin: 0;
+    margin: 16px;
+    margin-left: auto;
 }
 .acsent-logo {
     color: #f4f4fd;
