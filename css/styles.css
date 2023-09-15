@@ -770,7 +770,7 @@ input:checked + label > span {
 }
 .footer-container {
     display: flex;
-    align-items: baseline;    
+    align-items: baseline; 
 }
 .footer-logo {
     margin-right: 120px;    
@@ -782,6 +782,10 @@ input:checked + label > span {
     letter-spacing: 0.02em;
     color: #FFFFFF;
     margin-bottom: 16px;
+}
+
+.subscribe-input {
+    margin-left: auto;
 }
 
 .social-web-list {
