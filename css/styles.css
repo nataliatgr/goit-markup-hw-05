@@ -610,6 +610,7 @@ button:hover, button:focus  {
     letter-spacing: 0.04em;
     color: #8e8f99;
     display: block;
+    position: relative;
     margin-bottom: 4px;    
 }
 
@@ -656,7 +657,7 @@ textarea {
 }
 
 .input-cont {
-    margin-bottom: 8px;
+    margin-bottom: 8px;    
 }
 
 .textarea-input {
@@ -684,6 +685,9 @@ textarea {
     border-color: #4D5AE5;
  }
 .callback-checkbox {
+    display: flex;
+    align-items: center;
+    gap: 8px;
     margin-bottom: 24px;
 }    
 
@@ -702,6 +706,10 @@ input:checked + label > span {
 
 .policy-link {
     color: #4d5ae5;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.04em;
+    text-decoration-line: underline;
 }
 
 .form-button {
